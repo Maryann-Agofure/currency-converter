@@ -1,0 +1,11 @@
+let naira = document.querySelector('.naira')
+let rands = document.querySelector('.rands')
+let usd = document.querySelector('.usd')
+let aud = document.querySelector('.aud')
+let pounds = document.querySelector('.pounds')
+let euros = document.querySelector('.euros')
+let cedis = document.querySelector('.cedis')
+let francs = document.querySelector('.francs')
+let durham = document.querySelector('.durham')
+let won = document.querySelector('.won')
+
