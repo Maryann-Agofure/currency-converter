@@ -79,7 +79,7 @@ function convertUsd(){
 }
 
 function convertCad(){
-    usd.addEventListener('input', ()=>{
+    cad.addEventListener('input', ()=>{
         let cadValue = cad.value
         
         naira.value = Math.round(cadValue*340.55).toFixed(2)
@@ -97,7 +97,7 @@ function convertCad(){
 }
 
 function convertPounds(){
-    usd.addEventListener('input', ()=>{
+    pounds.addEventListener('input', ()=>{
         let poundsValue = pounds.value
         
         naira.value = Math.round(poundsValue*582.71).toFixed(2)
@@ -113,5 +113,95 @@ function convertPounds(){
     })
     
 }
+
+function convertEuros(){
+    euros.addEventListener('input', ()=>{
+        let eurosValue = euros.value
+        
+        naira.value = Math.round(eurosValue*499.39).toFixed(2)
+        rands.value = Math.round(eurosValue*16.45).toFixed(2)
+        usd.value = Math.round(eurosValue*1.21).toFixed(2)
+        cad.value = Math.round(eurosValue*1.47).toFixed(2)
+        pounds.value = Math.round(eurosValue*0.86).toFixed(2)
+        cedis.value = Math.round(eurosValue*7.02).toFixed(2)
+        francs.value = Math.round(eurosValue*1.09).toFixed(2)
+        dirham.value = Math.round(eurosValue*4.46).toFixed(2)
+        won.value = Math.round(eurosValue*1351.54).toFixed(2)
+        
+    })
+    
+}
+
+function convertCedis(){
+    cedis.addEventListener('input', ()=>{
+        let cedisValue = cedis.value
+        
+        naira.value = Math.round(cedisValue*70.75).toFixed(2)
+        rands.value = Math.round(cedisValue*2.33).toFixed(2)
+        usd.value = Math.round(cedisValue*0.17).toFixed(2)
+        cad.value = Math.round(cedisValue*0.21).toFixed(2)
+        euros.value = Math.round(cedisValue*0.14).toFixed(2)
+        pounds.value = Math.round(cedisValue*0.12).toFixed(2)
+        francs.value = Math.round(cedisValue*0.16).toFixed(2)
+        dirham.value = Math.round(cedisValue*0.63).toFixed(2)
+        won.value = Math.round(cedisValue*191.48).toFixed(2)
+        
+    })
+}
+
+function convertFrancs(){
+    francs.addEventListener('input', ()=>{
+        let francsValue = francs.value
+        
+        naira.value = Math.round(francsValue*456.08).toFixed(2)
+        rands.value = Math.round(francsValue*15.02).toFixed(2)
+        usd.value = Math.round(francsValue*1.1).toFixed(2)
+        cad.value = Math.round(francsValue*1.34).toFixed(2)
+        euros.value = Math.round(francsValue*0.91).toFixed(2)
+        pounds.value = Math.round(francsValue*0.78).toFixed(2)
+        cedis.value = Math.round(francsValue*6.42).toFixed(2)
+        dirham.value = Math.round(francsValue*4.07).toFixed(2)
+        won.value = Math.round(francsValue*1234.33).toFixed(2)
+        
+    })
+}
+
+function convertDirham(){
+    dirham.addEventListener('input', ()=>{
+        let dirhamValue = dirham.value
+        
+        naira.value = Math.round(dirhamValue*111.98).toFixed(2)
+        rands.value = Math.round(dirhamValue*3.69).toFixed(2)
+        usd.value = Math.round(dirhamValue*0.27).toFixed(2)
+        cad.value = Math.round(dirhamValue*0.33).toFixed(2)
+        euros.value = Math.round(dirhamValue*0.22).toFixed(2)
+        pounds.value = Math.round(dirhamValue*0.19).toFixed(2)
+        cedis.value = Math.round(dirhamValue*1.56).toFixed(2)
+        francs.value = Math.round(dirhamValue*0.25).toFixed(2)
+        won.value = Math.round(dirhamValue*303.06).toFixed(2)
+        
+    })
+}
+
+function convertWon(){
+    won.addEventListener('input', ()=>{
+        let wonValue = won.value
+        
+        naira.value = Math.round(wonValue*0.37).toFixed(2)
+        rands.value = Math.round(wonValue*0.012).toFixed(2)
+        usd.value = Math.round(wonValue*0.0009).toFixed(2)
+        cad.value = Math.round(wonValue*0.0011).toFixed(2)
+        euros.value = Math.round(wonValue*0.00074).toFixed(2)
+        pounds.value = Math.round(wonValue*0.00063).toFixed(2)
+        cedis.value = Math.round(wonValue*0.0052).toFixed(2)
+        francs.value = Math.round(wonValue*0.00081).toFixed(2)
+        dirham.value = Math.round(wonValue*0.0033).toFixed(2)
+        
+    })
+}
+
+
+
+
 
 
