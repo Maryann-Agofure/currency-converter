@@ -20,8 +20,12 @@ body {
   color: whitesmoke;
   text-align: center;
 }
+.currency-div {
+  width: 80%;
+}
 label {
   font-size: 1.5rem;
+  padding: 0 2.5rem;
 }
 input {
   width: 50%;
